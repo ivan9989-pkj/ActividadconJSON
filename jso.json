@@ -1,41 +1,36 @@
-{
-    "squadName" : "Ultimate Hero Squad",
-    "homeTown" : "Metro City",
-    "formed" : 2016,
-    "secretBase" : "Super tower",
-    "active" : true,
-    "members" : [
-      {
-        "name" : "Molecule Man",
-        "age" : 29,
-        "secretIdentity" : "Dan Jukes",
-        "powers" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
-      },
-      {
-        "name" : "Madame Uppercut",
-        "age" : 39,
-        "secretIdentity" : "Jane Wilson",
-        "powers" : [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
-      },
-      {
-        "name" : "Eternal Flame",
-        "age" : 1000000,
-        "secretIdentity" : "Unknown",
-        "powers" : [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
-        ]
-      }
-    ]
+
+
+  {
+      "Usuario": "Usuarios registrados",
+      "hometown":  "Tamarana Centro comercial",
+      "formed": "2023",
+      "active": true,
+      "clientes":[
+        {
+          "nameandapellidos": "Iván Santana Quintana",
+          "dni": "49983245J",
+          "correo": "santanaquintanai@gmail.com",
+          "direccion": "Tamaraceite paseo de los mariteres"
+        },
+        {
+          "nameandapellidos": "Airam León Perera",
+          "dni": "79936574M",
+          "correo": "airamdm2001@gmail.com",
+          "direccion": "San bartolomé "
+        },
+        {
+          "nameandapellidos": "Carlos IV de Aragon",
+          "dni": "43287691N",
+          "correo": "reunificacioncatalana@gmail.com",
+          "direccion": "barcelona calle conquista de mora"
+        },
+        {
+          "nameandapellidos": "Isabel II de Castilla",
+          "dni": "89547343V",
+          "correo": "matamoros300@gmail.com",
+          "direccion": "Granada alluhadbad"
+        }
+       
+      ]
+      
   }

@@ -17,16 +17,16 @@ request.onload = function() {
   
   function populateHeader(jsonObj) {
     const myH1 = document.createElement('h1');
-    myH1.textContent = jsonObj['squadName'];
+    myH1.textContent = jsonObj['Usuario'];
     header.appendChild(myH1);
   
     const myPara = document.createElement('p');
-    myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+    myPara.textContent = 'Lugar: ' + jsonObj['Lugar'] + ' // Formed: ' + jsonObj['formed'];
     header.appendChild(myPara);
   }
 
 function showHeroes(jsonObj) {
-    const heroes = jsonObj['members'];
+    const heroes = jsonObj['clientes'];
     for (var i = 0; i < heroes.length; i++) {
       const myArticle = document.createElement('article');
       const myH2 = document.createElement('h2');
@@ -35,17 +35,13 @@ function showHeroes(jsonObj) {
       const myPara3 = document.createElement('p');
       const myList = document.createElement('ul');
   
-      myH2.textContent = heroes[i].name;
-      myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-      myPara2.textContent = 'Age: ' + heroes[i].age;
-      myPara3.textContent = 'Superpowers:';
+      myH2.textContent = heroes[i].nameandapellidos;
+      myPara1.textContent = 'correo: ' + heroes[i].correo;
+      myPara2.textContent = 'DNI: ' + heroes[i].dni;
+      myPara3.textContent = 'Dirección:'+heroes[i].direccion;
   
-      const superPowers = heroes[i].powers;
-      for (var j = 0; j < superPowers.length; j++) {
-        const listItem = document.createElement('li');
-        listItem.textContent = superPowers[j];
-        myList.appendChild(listItem);
-      }
+      
+     
   
       myArticle.appendChild(myH2);
       myArticle.appendChild(myPara1);
